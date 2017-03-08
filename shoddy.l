@@ -19,7 +19,7 @@ increment_line_number(void)
 %}
 %start COMMENT STRING_LITERAL_STATE
 %%
-<INITIAL>"function"          return Function;
+<INITIAL>"function"          return FUNCTION;
 <INITIAL>"if"                return IF;
 <INITIAL>"else"              return ELSE;
 <INITIAL>"elseif"            return ELSEIF;
